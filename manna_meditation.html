@@ -170,6 +170,143 @@
             background: var(--primary-600);
         }
 
+        /* 모바일 반응형 디자인 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            header {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 0.9em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            .button-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .nav-button {
+                padding: 15px 10px;
+            }
+
+            .nav-button h3 {
+                font-size: 0.95em;
+            }
+
+            .content-section {
+                padding: 20px 15px;
+            }
+
+            .chapter-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+            }
+
+            .chapter-button {
+                padding: 12px 8px;
+                font-size: 0.9em;
+            }
+
+            .bible-text-section {
+                padding: 15px;
+            }
+
+            .bible-reference-header {
+                font-size: 1.1em;
+            }
+
+            .bible-verse {
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+
+            .verse-number {
+                min-width: 20px;
+                font-size: 0.85em;
+            }
+
+            .meditation-card {
+                padding: 15px;
+            }
+
+            .meditation-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .meditation-header > div {
+                width: 100%;
+            }
+
+            .meditation-header > div:last-child {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+
+            .person-badge {
+                font-size: 0.85em;
+                padding: 5px 10px;
+            }
+
+            .meditation-content {
+                font-size: 0.9em;
+                padding: 12px;
+            }
+
+            .btn-primary {
+                padding: 8px 15px;
+                font-size: 0.85em;
+            }
+
+            .back-button {
+                padding: 10px 18px;
+                font-size: 0.85em;
+            }
+
+            .filter-section {
+                padding: 10px;
+                gap: 5px;
+            }
+
+            .filter-button {
+                padding: 6px 12px;
+                font-size: 0.85em;
+            }
+
+            .modal-content {
+                width: 95%;
+                padding: 20px;
+                max-height: 90vh;
+            }
+
+            .modal-header h3 {
+                font-size: 1.2em;
+            }
+
+            .comparison-view {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .form-group textarea {
+                min-height: 120px;
+            }
+        }
+
         /* Chapter Grid */
         .chapter-grid {
             display: grid;
